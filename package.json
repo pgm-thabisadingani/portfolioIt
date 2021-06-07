@@ -10,7 +10,7 @@
     "watch:dev": "npm run dev",
     "watch:sass": "npm run sass -- --watch",
     "start": "npm-run-all sass --parallel watch:*",
-    "build": "env NODE_ENV=production npm run sass && npx eleventy --pathprefix 'portfolio'"
+    "build": "env NODE_ENV=production npm run sass && npx eleventy --pathprefix 'portfolioIt'"
   },
   "repository": {
     "type": "git",
