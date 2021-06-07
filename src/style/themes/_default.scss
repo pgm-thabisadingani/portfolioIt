@@ -5,7 +5,17 @@ html {
 .wrapper {
     width: $full-container;
     max-width: $full-container;
-    background-color:$color-dark-gray;
+    //background-color:$color-dark-gray;
+    background-image: url("./../assets/img/beauty.png");
+
+    /* Set a specific height */
+    //min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+
+    background-repeat: no-repeat;
+    background-size: cover;
 
     position: relative;
     overflow: hidden;
