@@ -6,7 +6,7 @@
   "scripts": {
     "eleventy": "npx @11ty/eleventy --pgm-thabisadingani",
     "dev": "npx @11ty/eleventy --serve",
-    "sass": "sass --style=compressed src/style/main.scss src/main.css",
+    "sass": "sass --style=compressed ./src/style/main.scss ./src/main.css",
     "watch:dev": "npm run dev",
     "watch:sass": "npm run sass -- --watch",
     "start": "npm-run-all sass --parallel watch:*",
