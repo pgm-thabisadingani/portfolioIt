@@ -1,0 +1,10 @@
+
+figure {
+    margin: 0;
+}
+
+h2.center {
+    color: $color-white;
+    @include fancy-margin;
+    margin-top: -0.5rem;
+}

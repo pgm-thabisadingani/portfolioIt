@@ -1,0 +1,11 @@
+.footer {
+    border-top: $color-yellow solid 1px;
+   
+    font-size: .9rem;
+
+    &__bottom {
+        
+        text-align: center;
+        color: $third-colour;
+    }
+}

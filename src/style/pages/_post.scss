@@ -1,0 +1,192 @@
+.header-post {
+    height: 20rem;
+
+    img {
+        @include height-width;
+        object-fit: cover;
+    }
+}
+
+.post-wrapper {
+    margin-top: $margin-m-lg;
+
+    &__main {
+        width: $smaller-container;
+        @include main-margin;
+
+        @include fancy-blockquote($quotes-colour, $text-md-lg);
+
+        blockquote p {
+            display: inline;
+        }
+
+        h2 {
+            padding-bottom: $spacing-sm;
+            color: $title-colour;
+        }
+
+        h3 {
+            color: $subtitle-colour;
+            line-height: 1.6;
+        }
+
+        a {
+            color: $primary-colour
+        }
+
+        a:hover {
+            text-decoration: underline;
+            text-decoration-color: $primary-colour;
+        }
+
+        ol {
+            margin-top: $margin-lg;
+        }
+
+        li {
+            list-style: disc;
+            margin-left: $spacing-lg;
+            color: $body-colour;
+        }
+
+        ol li {
+            list-style: decimal;
+        }
+
+        &--top {
+            display: flex;
+            align-items: center;
+            margin-bottom: $spacing-sm;
+
+            img {
+                width: 3rem;
+                border-radius: $radius-lg;
+            }
+
+            div {
+                font-family: "open sans";
+                font-size: $text-base;
+                display: flex;
+                flex-direction: column;
+                line-height: $spacing-md;
+                margin-left: $spacing-base;
+
+                .author {
+                    color: $body-colour;
+                }
+
+                .date {
+                    color: $sm-text-colour;
+                }
+            }
+        }
+
+        hr.style-six {
+            border: 0;
+            height: 0;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+            margin-top: $margin-lg;
+            margin-bottom: $margin-xxl;
+        }
+
+        hr.style-six-extra {
+            margin-top: $margin-xxl;
+        }
+
+        &--bottom {
+            @include main-margin;
+
+            text-align: h2 {
+                width: $smaller-container;
+            }
+
+            h2 {
+                margin-bottom: $margin-lg;
+            }
+
+            h3 {
+                margin-top: $margin-xl;
+            }
+
+            img {
+                margin-top: $margin-lg;
+
+                width: $smaller-container;
+                display: block;
+
+            }
+
+            .imgs {
+
+                display: flex;
+
+                figure {
+                    width: 49.5%;
+
+
+                    img {
+                        width: $full-container;
+                        height: 22rem
+                    }
+
+                    figcaption {
+                        padding-top: $spacing-sm;
+                        color: $body-colour;
+                        padding-bottom: 1rem;
+                        padding-left: $spacing-sm;
+                        font-style: italic;
+                    }
+                }
+
+                figure:nth-child(even) {
+                    margin-left: 1.5rem;
+                }
+            }
+
+        }
+    }
+
+    &__aside {
+        width: 65rem;
+        @include main-margin;
+        margin-bottom: $margin-m-xl;
+
+        h3 {
+            margin-top: $margin-xxxl;
+            color: $subtitle-colour;
+            text-align: center;
+        }
+
+        ul {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+        }
+
+        li {
+            width: 30%;
+            margin: $spacing-sm;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: $margin-base;
+            font-size: $text-md;
+            justify-content: center;
+
+            a {
+                transition: all .2s;
+                font-size: $text-base;
+                line-height: 1.5;
+                margin-top: $spacing-sm;
+                padding: $spacing-sm;
+                color: $primary-colour;
+
+            }
+
+            a:hover {
+                text-decoration: underline;
+                text-decoration-color: $primary-colour;
+            }
+        }
+    }
+}

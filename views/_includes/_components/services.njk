@@ -1,0 +1,20 @@
+    <div class="services__inner inner--wrapper">
+        <p class="sub-title">Services</p>
+        <h2 class="center">What I Am Good At</h2>
+     <div class="services__inner--list">
+            <article class="container">
+                <ul>
+                    {% for service in services %}
+                            <li>
+                                <img src="/assets/img/{{ service.img }}" alt="{{ service.title }}">
+                                <h3>{{ service.title }}</h3>
+                                <p>{{ service.text}}</p>
+                            </li>
+                    {% endfor %}
+                </ul>
+            </article>
+    </div>
+    </div>
+
+      
+

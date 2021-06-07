@@ -1,0 +1,56 @@
+html {
+    scroll-behavior: smooth;
+  }
+ 
+.wrapper {
+    width: $full-container;
+    max-width: $full-container;
+    background-color:$color-dark-gray;
+
+    position: relative;
+    overflow: hidden;
+
+    @include main-margin;
+}
+
+.inner--wrapper{
+    max-width:70rem;
+    padding: 2rem;
+    @include main-margin;
+}
+
+main{
+    text-align: center;
+}
+main > section:not(.hero){
+padding-top:3rem;
+padding-bottom:3rem
+}
+
+@media (min-width:37.5rem){
+    main > section:not(.hero){
+        padding-top:6rem;
+        padding-bottom:6rem
+    }
+}
+
+img {
+    width: $full-container;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    line-height: 1.8;
+    color: $body-colour;
+}
+
+ul {
+    padding-left: 0rem;
+}
+
+a {
+    text-decoration: none;
+}

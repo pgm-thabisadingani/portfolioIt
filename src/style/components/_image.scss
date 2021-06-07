@@ -1,0 +1,40 @@
+.display-image {
+    &--square {
+        @include aspect-ratio;
+    }
+
+    &--sixteen-nine {
+        @include aspect-ratio(56.25%);
+    }
+}
+
+.image {
+    &--rounded {
+        border-radius: $radius-sm;
+
+        &-left {
+            border-radius: $radius-sm 0 0 $radius-sm;
+        }
+    }
+}
+
+//Videos
+.video-header {
+    position: relative;
+    text-align: center;
+    width: $extrasmall-container;
+    height: auto;
+
+    video {
+        outline: none;
+        @include height-width;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    video {
+        //background: brown;
+        object-fit: cover;
+    }
+}

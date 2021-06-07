@@ -1,0 +1,129 @@
+@mixin main-margin {
+    margin: 0 auto
+}
+
+@mixin aspect-ratio($padding-top: $full-container, $child: img) {
+    position: relative;
+    width: $full-container;
+    height: 0;
+    padding-top: $padding-top;
+    margin: 0;
+
+    >#{$child} {
+        position: absolute;
+        top: 0;
+        left: 0;
+        @include height-width;
+        @include fancy-fit;
+    }
+}
+
+@mixin fancy-text($font-size: $text-base) {
+    font-size: $font-size;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+@mixin background-control {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin fancy-overlay {
+    h2 {
+        color: $third-colour;
+    }
+
+    background-color: rgba(0, 0, 0, 0.233);
+    padding: 1rem;
+    color: $third-colour;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: $full-container;
+    text-align: center;
+}
+
+@mixin fancy-margin {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+@mixin fancy-transition {
+    transition: all 0.2s ease-in-out;
+}
+
+@mixin fancy-fit {
+    object-fit: cover;
+    object-position: center;
+}
+
+@mixin fancy-button {
+    color: $third-colour;
+    border-radius: $radius-md;
+    width: 2rem;
+    padding: 0.5rem 1rem;
+    transition: all .3s;
+}
+
+@mixin height-width {
+    width: $full-container;
+    height: $full-container;
+}
+
+@mixin fancy-primary ($z-index, $background-color) {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    @include height-width;
+    border-radius: 10rem;
+    z-index: $z-index;
+    background-color: $background-color;
+}
+
+@mixin fancy-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+@mixin fancy-border {
+    border: solid $primary-colour 1px;
+}
+
+@mixin fancy-contact-border($top-margin, $bottom-margin) {
+    background-color: $primary-colour;
+    height: 2rem;
+    border-radius: 4rem;
+
+    margin-top: $margin-xl;
+    margin-bottom: $bottom-margin;
+}
+
+@mixin fancy-blockquote ($colour, $fontsize) {
+
+    blockquote {
+        text-align: center;
+        quotes: none;
+        // font-size: $text-md-lg;
+        font-size: $fontsize;
+        margin: $margin-xl $spacing-sm;
+        padding: $spacing-sm $spacing-base;
+    }
+
+    blockquote:before {
+        color: $colour;
+        content: "\201c";
+        font-size: $text-xxl;
+        line-height: 1rem;
+        margin-right: $spacing-sm;
+        vertical-align: -0.4rem;
+    }
+}

@@ -1,0 +1,17 @@
+.icons {
+    display: flex;
+
+    &__svg {
+        width: 1.5rem;
+        padding: $spacing-sm;
+        fill: $primary-colour;
+        @include fancy-border;
+        border-radius: $radius-lg;
+        margin-right: $spacing-sm;
+    }
+
+    &__svg:hover {
+        background-color: $primary-colour;
+        fill: $third-colour;
+    }
+}
