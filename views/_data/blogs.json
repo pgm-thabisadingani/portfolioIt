@@ -1,27 +1,27 @@
 [
     {
         "title": "Front-end development",
-        "img": "/assets/img/sweet_mustard.png"
+        "img": "sweet_mustard.png"
     },
     {
         "title": "Drupal/Backend Developer/Freelance ",
-        "img": "/assets/img/trivali.jpg"
+        "img": "trivali.jpg"
     },
     {
         "title": "Drupal/Backend Developer",
-        "img": "/assets/img/dropsolid.jpg"
+        "img": "dropsolid.jpg"
     },
     {
         "title": "Workflow Development / Project Management",
-        "img": "/assets/img/starring_jane.png"
+        "img": "starring_jane.png"
     },
     {
         "title": "Front-End Development & UI/UX Designer",
-        "img": "/assets/img/starring_jane.png"
+        "img": "starring_jane.png"
     },
     {
         "title": " Business leader / Manager",
-        "img": "/assets/img/webdoos.png"
+        "img": "webdoos.png"
     }
 
 ]       
