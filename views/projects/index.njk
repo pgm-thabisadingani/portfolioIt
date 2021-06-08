@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Projects Articles  
+title: Projects Page
 tags:
 eleventyNavigation:
     key: Projects
@@ -10,7 +10,7 @@ eleventyNavigation:
 <section class=" projects-index">
     <ul class="news-index__list">
         {% for project in collections.projects %}
-            {% include "_components/projects.njk" %}
+            {# {% include "_components/projectPage.njk" %} #}
         {% endfor %}
     </ul>
 </section>

@@ -60,7 +60,7 @@
 
                //border: 1px dotted $color-light-gray;
                img{
-                   width: 5rem;
+                   width: 6.5rem;
                }
                h4{
                 font-weight: 400;
@@ -90,7 +90,7 @@
 
     @media (min-width:62.5rem){
         &__inner{
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: 1fr 2fr;
 
             .blog{
                 border-left: 1px solid $color-yellow;
