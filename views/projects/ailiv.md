@@ -1,6 +1,6 @@
 ---
 title: "Ailiv"
-img: "Ailiv.be.png"
+img: "Ailiv.png"
 text: "A replica/clone of aflower shop website, Ailiv."
 tools: "HTML, CSS, URL parameters and Vanilla JavaScript"
 url: "#"
