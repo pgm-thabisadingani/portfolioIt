@@ -10,8 +10,14 @@
                 border: 1px dotted rgba(255, 255, 255, 0.281);
                 padding:2rem;
                 display:grid;
-                grid-template-columns: 1fr 2fr;
+                grid-template-columns: 1fr;
                 column-gap: 2rem;
+
+                .blogs-img{
+                    img{
+                        width: 45%;
+                    }
+                }
 
                 .blogs-text{
                     h3{
@@ -37,6 +43,21 @@
                         text-decoration: italic;
                     }
                 }
+            }
+
+            @media (min-width:37.5rem){
+                &--item{
+                    grid-template-columns: 1fr   2fr;
+                    .blogs-img{
+                        img{
+                            width: 80%;
+                        }
+                    }
+                    .blogs-text{
+
+                    }
+                }
+
             }
 
         }
