@@ -15,6 +15,9 @@
             <main class="">
                 {{ content | safe }}  
             </main>
+            <section class="contact">
+                {% include "_components/contact.njk" %}
+            </section>    
         {% include "_components/footer.njk" %}
     </div>
     <script src='./assets/js/main.js'></script>
