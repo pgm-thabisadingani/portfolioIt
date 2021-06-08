@@ -38,12 +38,14 @@
         <h2 class="center">Check Who Visited</h2>
         <ul class="blog__list">
             {% for blog in blogs %}
-                <li class="blog__list--item">
-                    <a href="#">
-                        <img src="./assets/img/{{ blog.img }}" alt=" {{ blog.title }} ">
-                        <h4>{{ blog.title }}</h4>
-                    </a>
-                </li>
+                {% if blog.highlighted %}
+                    <li class="blog__list--item">
+                        <a href="#">
+                            <img src="./assets/img/{{ blog.img }}" alt=" {{ blog.title }} ">
+                            <h4>{{ blog.title }}</h4>
+                        </a>
+                    </li>
+                 {% endif %}    
             {% endfor %}
         </ul>
     </article>

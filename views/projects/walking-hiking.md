@@ -3,8 +3,8 @@ title: "Walking/Hiking App"
 img: "walking_hiking_app.png"
 url: "#"
 git: "#"
-text: "The evidence is clear, nature is good for you. That’s why together with our friends at Palmolive, we have launched new walks in Stockholm to help you get the most nature out of the city."
-author: Grace Robertson
-date: "2020-05-02"
+text: "A website a to promote a walking/hiking app."
+tools: "CSS, Nunjucks, SCSS, Eleventy and JavaScript"
+date: "2021-04-09"
 ---
 

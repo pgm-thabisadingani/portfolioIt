@@ -1,27 +1,88 @@
 [
     {
-        "title": "Front-end development",
-        "img": "sweet_mustard.png"
-    },
-    {
-        "title": "Drupal/Backend Developer/Freelance ",
-        "img": "trivali.jpg"
+        "title": "Business leader / Manager",
+        "name": "Stijn Blomme",
+        "img": "webdoos.png",
+        "url": "https://www.webdoos.be/nl/home",
+        "highlighted": true,
+        "company": "Webdoos",
+        "text": "",
+        "learn": "",
+        "date": "2021-05-27"
     },
     {
         "title": "Drupal/Backend Developer",
-        "img": "dropsolid.jpg"
+        "name": "Nick Veenhof",
+        "img": "dropsolid.jpg",
+        "url": "https://dropsolid.com/nl/agency/",
+        "highlighted": true,
+        "company": "Dropsolid",
+        "text": "",
+        "learn": "",
+        "date": "2021-05-06"
     },
     {
-        "title": "Workflow Development / Project Management",
-        "img": "starring_jane.png"
+        "title": "Drupal/Backend Developer/Freelance",
+        "name": "Kristof Vercruyssen",
+        "img": "trivali.jpg",
+        "url": "https://www.trivali.be/",
+        "company": "Trivali",
+        "text": "",
+        "learn": "",
+        "date": "2021-04-29"
+    },
+    {
+        "title": "Marketing Automation",
+        "name": "Thomas Vercamer",
+        "img": "intracto.png",
+        "url": "https://www.intracto.com/nl-be",
+        "highlighted": true,
+        "company": "Intracto",
+        "text": "",
+        "learn": "",
+        "date": "2021-06-08"
+    },
+    {
+        "title": "Front-end development",
+        "name": "Jos De Berdt",
+        "img": "sweet_mustard.png",
+        "url": "https://www.sweetmustard.be/",
+        "highlighted": true,
+        "company": "Sweet Mustard",
+        "text": "",
+        "learn": "",
+        "date": "2021-04-22"
     },
     {
         "title": "Front-End Development & UI/UX Designer",
-        "img": "starring_jane.png"
+        "name": "Geoffrey Van Meirhaeghe",
+        "img": "starring_jane.png",
+        "url": "https://www.starringjane.com/",
+        "highlighted": true,
+        "company": "Starring Jane",
+        "text": "",
+        "learn": "",
+        "date": "2021-05-18"
     },
     {
-        "title": " Business leader / Manager",
-        "img": "webdoos.png"
+        "title": "Life-choices",
+        "name": "Rien Kerckhof",
+        "img": "duo.png",
+        "url": "https://www.duo.be/nl",
+        "highlighted": true,
+        "company": "Duo NV",
+        "text": "",
+        "learn": "",
+        "date": "2021-06-01"
+    },
+    {
+        "title": "Workflow Development / Project Management ",
+        "name": "Maaike & Elke",
+        "img": "starring_jane.png",
+        "url": "https://www.starringjane.com/",
+        "company": "Starring Jane",
+        "text": "",
+        "date": "2021-05-11"
     }
 
 ]       

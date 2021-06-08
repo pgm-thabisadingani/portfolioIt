@@ -1,0 +1,43 @@
+
+    .blogs{
+        &__list{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            text-align: left;
+            row-gap: 5rem;
+
+            &--item{
+                border: 1px dotted rgba(255, 255, 255, 0.281);
+                padding:2rem;
+                display:grid;
+                grid-template-columns: 1fr 2fr;
+                column-gap: 2rem;
+
+                .blogs-text{
+                    h3{
+                        font-size:1.5rem
+                    }
+                    h4{
+                        font-size: 1.2rem;
+                        margin: -0.5rem 0;
+                    }
+
+                    a{
+                        color: $color-white;
+                        text-decoration: underline;
+                    }
+                    a:hover{
+                        color:gray;
+                        text-decoration: underline;
+                    }
+                    .bolder{
+                        color:$color-yellow;
+                    }
+                    .dateItem{
+                        text-decoration: italic;
+                    }
+                }
+            }
+
+        }
+    }
