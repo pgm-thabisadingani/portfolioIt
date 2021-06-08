@@ -6,5 +6,5 @@ text: "A simple website project based on global warming."
 tools: "HTML and CSS"
 url: "https://pgm-thabisadingani.github.io/NoPlanetB/"
 git: "https://github.com/pgm-thabisadingani/NoPlanetB"
-dateCreated: "10 Nov 2020"
+date: "2020-11-10"
 ---

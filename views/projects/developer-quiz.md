@@ -5,7 +5,7 @@ text: "A project involving the development of a mobile application for a Develop
 tools: "HTML, CSS, Vanilla JavaScript and QuizAPI"
 url: "https://pgm-thabisadingani.github.io/developer-quiz/"
 git: "https://github.com/pgm-thabisadingani/developer-quiz/"
-dateCreated: "11 Mar 2021"
+date: "2021-03-11"
 ---
 
 

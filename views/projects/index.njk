@@ -7,10 +7,12 @@ eleventyNavigation:
     order: 2    
 ---
 
-<section class=" projects-index">
-    <ul class="news-index__list">
-        {% for project in collections.projects %}
-            {# {% include "_components/projectPage.njk" %} #}
-        {% endfor %}
-    </ul>
+<section class="projects">
+    <article class="inner--wrapper ">
+        <ul class="projects__list">
+            {% for project in collections.projects | reverse %}
+                {% include "_components/projectPage.njk" %}
+            {% endfor %}
+        </ul>
+    </article>
 </section>

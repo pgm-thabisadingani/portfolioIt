@@ -35,3 +35,60 @@
         }
     }
 }
+
+.projects{
+    &__list{
+      
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+        li{
+            border: 1px dotted rgba(255, 255, 255, 0.281);
+            padding:2rem;
+        }
+        h3{
+            font-size:1.5rem
+        
+        }
+        span.bolder{
+            color:$color-yellow;
+            font-weight: 700;
+            
+        }
+        hr {
+            width: 4.6rem;
+            margin-top: 1rem;
+        }
+        svg{
+            width: 2rem;
+            fill: $color-yellow;
+            margin:1rem;
+        }
+
+        &--background{
+            height:18rem;
+            background-size: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+    @media (min-width:37.5rem){
+        &__list{
+            &--background{
+                height:25rem;
+                background-size: 80%;
+            }
+        }
+    }
+    @media (min-width:62.5rem){
+        &__list{
+            grid-template-columns: repeat(2, 1fr);
+            &--background{
+                height:20rem;
+                background-size: 100%;
+            }
+        }
+    }
+}
+
+
