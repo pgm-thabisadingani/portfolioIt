@@ -40,7 +40,7 @@
             {% for blog in blogs %}
                 <li class="blog__list--item">
                     <a href="#">
-                        <img src="./assets/img/{{ blog.img | url  }}" alt=" {{ blog.title }} ">
+                        <img src="{{ blog.img | url  }}" alt=" {{ blog.title }} ">
                         <h4>{{ blog.title }}</h4>
                     </a>
                 </li>
