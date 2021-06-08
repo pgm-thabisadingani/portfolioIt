@@ -39,7 +39,7 @@
         "highlighted": true,
         "company": "Intracto",
         "text": "Our guest speaker for Marketing Automation was Thomas Vercamer of Intractor, a company based in Gent. The presentation concentrated on the principles of marketing automation. It was divided into three parts: the first was theory-based, where we learned about marketing automation and the pillars of effective marketing, which included sending a relevant message to the right person at the right time; the second part was supposed to be practical, where we put theory into action; and the third part was supposed to be for questins and answers, but due to unforeseen technical issues, the exercises had to be postponed.",
-        "learn": "Over ",
+        "learn": "",
         "date": "2021-06-08"
     },
     {
@@ -81,7 +81,8 @@
         "img": "starring_jane.png",
         "url": "https://www.starringjane.com/",
         "company": "Starring Jane",
-        "text": "",
+        "text": "The charming ladies of starring jane, Maaike, and Elke were our visitors for workflow development/project management. Their presentation focused on project management and workflow development.Project management is described as the procedure of managing a team's efforts to meet all project objectives within the restrictions set out. Typically, this data is described in project documentation, which is prepared at the start of the development process. Scope, time, and budget are the three main restraints.",
+        "learn":"They mentioned project management techniques like Agile, which divides the product development process into tiny, manageable development cycles known as sprints. You can incorporate user input at the conclusion of each cycle as you break down your project into various sprints.",
         "date": "2021-05-11"
     }
 

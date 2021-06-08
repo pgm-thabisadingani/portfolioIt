@@ -11,7 +11,7 @@ eleventyNavigation:
         <p class="sub-title">Blog</p>
         <h2 class="center padding-btm">Check Who Visited</h2>
         <ul class="blogs__list">
-            {% for blog in blogs | reverse %}
+            {% for blog in blogs | sort %}
                 <li class="blogs__list--item">
                     <article class="blogs-img-text">
                         <div class="blogs-img">
