@@ -8,3 +8,39 @@ h2.center {
     @include fancy-margin;
     margin-top: -0.5rem;
 }
+
+.arrow-top{
+    display: block;
+
+    width: 2.5rem;
+    position: fixed;
+    z-index: 2000;
+    bottom: 1rem;
+    right: 1rem;
+
+    cursor: pointer;
+    outline: none;
+    border:none;
+
+    background-color: $color-dark-gray;
+
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out;
+    padding: 0.3rem;
+    border-radius:50%;
+
+    svg{
+        fill: $color-white;
+    }
+  }
+  
+  .arrow-top:hover {
+    svg{
+        fill: $color-yellow;
+    }
+  }
+
+.btnAppears {
+    opacity: 1;
+    transition: opacity 0.25s ease-in-out;
+  }
