@@ -3,7 +3,7 @@ title: "Gentse Feesten"
 img: "gentse_feesten.png"
 highlighted: true
 text: "A replica/clone of the 2020 Gentse Feesten website."
-tools: "HTML, CSS, Vanilla JavaScript"
+tools: "HTML, CSS, and JavaScript"
 url: "https://pgmgent-2021-atwork1.github.io/atwork-1_project_2-pgm-thabisadingani/"
 git: "https://github.com/pgmgent-2021-atwork1/atwork-1_project_2-pgm-thabisadingani"
 date: "2020-12-20"
