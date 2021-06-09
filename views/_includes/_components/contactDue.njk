@@ -41,7 +41,7 @@
                 {% if blog.highlighted %}
                     <li class="blog__list--item">
                         <a href="{{ '/blog' | url }}">
-                            <img src="/../assets/img/{{ blog.img }}" alt=" {{ blog.title }} ">
+                            <img src="./assets/img/{{ blog.img | url}}" alt=" {{ blog.title }} ">
                             <h4>{{ blog.title }}</h4>
                         </a>
                     </li>
