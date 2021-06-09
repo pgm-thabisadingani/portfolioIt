@@ -62,10 +62,13 @@
             ;
         }
         svg{
-            width: 2rem;
-            fill: $color-white;
+            width: 2.5rem;
+            fill: $color-yellow;
             margin:0.5rem;
             margin-top: 1rem;
+        }
+        svg:hover{
+            fill: $color-white;
         }
 
         &--background{
