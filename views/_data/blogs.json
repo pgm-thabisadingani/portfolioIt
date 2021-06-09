@@ -27,7 +27,7 @@
         "img": "trivali.jpg",
         "url": "https://www.trivali.be/",
         "company": "Trivali",
-        "text": "Kristof is the founder and manager of Trivali Web Development, a lochristi-based firm. He primarily works with PHP for backend development. And his presentation was mostly focused on three concepts: Drupal, Backend, and Freelancing. Drupal is a Belgian-developed open source content management system. In Trivali, large-scale websites are built with Drupal, whereas small-scale sites are built with Web Pres.  Considering that WebPress and dropal are both written in PHP. PHP was used extensively throughout the presentation's back end.",
+        "text": "Kristof is the founder and manager of Trivali Web Development, a Lochristi-based firm. He primarily works with PHP for backend development. And his presentation was mostly focused on three concepts: Drupal, Backend, and Freelancing. Drupal is a Belgian-developed open source content management system. In Trivali, large-scale websites are built with Drupal, whereas small-scale sites are built with WebPress.  Considering that WebPress and dropal are both written in PHP. PHP was used extensively throughout the presentation's back end.",
         "learn": "He also had a lot of experience with freelance work, and he provided us advice like making sure we obtain a contract for at least a month, doing research on the company you're going to work for before hand to avoid any misunderstandings, and specializing in one or two domains and doing them well.",
         "date": "2021-04-29"
     },
@@ -81,7 +81,7 @@
         "img": "starring_jane.png",
         "url": "https://www.starringjane.com/",
         "company": "Starring Jane",
-        "text": "The charming ladies of starring jane, Maaike, and Elke were our visitors for workflow development/project management. Their presentation focused on project management and workflow development.Project management is described as the procedure of managing a team's efforts to meet all project objectives within the restrictions set out. Typically, this data is described in project documentation, which is prepared at the start of the development process. Scope, time, and budget are the three main restraints.",
+        "text": "The charming ladies of starring jane, Maaike, and Elke were our visitors for workflow development/project management. Their presentation focused on project management and workflow development. Project management is described as the procedure of managing a team's efforts to meet all project objectives within the restrictions set out. Typically, this data is described in project documentation, which is prepared at the start of the development process. Scope, time, and budget are the three main restraints.",
         "learn":"They mentioned project management techniques like Agile, which divides the product development process into tiny, manageable development cycles known as sprints. You can incorporate user input at the conclusion of each cycle as you break down your project into various sprints.",
         "date": "2021-05-11"
     }
