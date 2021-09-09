@@ -38,39 +38,25 @@
         }
     }
     .blog{
-        border-left: none;
-        border-top: 1px solid $color-yellow;
-        padding-left: 0;
-        padding-top: 2rem;
+        border-right: none;
+        border-bottom: 1px solid $color-yellow;
+        padding-right: 0;
+        margin-right: 0;
+        margin-bottom: 2rem;
+        padding-bottom: 2rem;
 
         &__list{
             display: grid;
-            grid-template-columns: repeat(1fr);
+            grid-template-columns: repeat(3, 1fr);
             row-gap: 1rem;
             column-gap: 1rem;
-            a{
-                text-align: left;
-                //background-color: $color-light-gray;
-                padding:0.2rem;
-
-                display: grid;
-                grid-template-columns: 1fr 2fr;
-                column-gap: 0.6rem;
-                align-items: center;
-
-               //border: 1px dotted $color-light-gray;
-               img{
-                   width: 6.5rem;
-               }
-               h4{
-                font-weight: 400;
-               }
+            li{
+                img{
+                    width: 40%;
+                }
 
             }
-            a:hover{
-                    text-decoration: underline;
-                    color: $color-yellow;
-                }
+        
             }
 
         }
@@ -81,8 +67,14 @@
         &__inner{
             .blog{
                 &__list{
-                    grid-template-columns: repeat(2, 1fr);
-                    grid-template-rows:  repeat(2, 1fr);
+                    grid-template-columns: repeat(5, 1fr);
+                    li{
+                        img{
+                            width: 45%;
+                        }
+        
+                    }
+                   
                 }   
             }
         }
@@ -90,13 +82,26 @@
 
     @media (min-width:62.5rem){
         &__inner{
-            grid-template-columns: 1fr 2fr;
+            grid-template-columns: 2fr 1fr;
 
             .blog{
-                border-left: 1px solid $color-yellow;
-                border-top: none;
-                padding-left: 2rem;
-                padding-top: 0;
+                &__list{
+                    // grid-template-columns: repeat(5, 1fr);
+                    li{
+                        img{
+                            width: 55%;
+                        }
+        
+                    }
+                   
+                }   
+                border-right: 1px solid $color-yellow;
+                border-bottom: none;
+                padding-right: 2rem;
+                padding-bottom: 0;
+                margin-right: 2rem;
+                margin-bottom: 0;
+                
             }
 
         }
