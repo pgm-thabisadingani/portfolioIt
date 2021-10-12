@@ -29,7 +29,7 @@ eleventyNavigation:
             <p class="sub-title">Projects</p>
             <h2 class="center">Explore My Work</h2>
             <ul class="list">
-                {% for project in collections.projects %}
+                {% for project in collections.projects | reverse  %}
                     {% if project.data.highlighted %}
                         {% include "_components/projects.njk" %}
                     {% endif %}
