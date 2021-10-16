@@ -66,6 +66,8 @@
             fill: $color-yellow;
             margin:0.5rem;
             margin-top: 1rem;
+            border: 1px dotted rgba(255, 255, 255, 0.281);
+            padding:2rem;
         }
         svg:hover{
             fill: $color-white;
