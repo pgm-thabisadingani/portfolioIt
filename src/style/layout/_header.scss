@@ -22,6 +22,9 @@
         }
 
         .menu{
+            .git-linkedin{
+                width: 2rem;
+            }
 
             li {
                 strong {
@@ -43,6 +46,8 @@
                         color: $color-white;
                         border-bottom: $color-white 2px solid;
                     }
+
+
                 
                     svg{
                         fill: $color-yellow;
@@ -80,9 +85,11 @@
                     outline:none;
                     border: none;
                     cursor: pointer;
+                    width: 2rem;
 
                     svg{
                         fill: $color-white;
+                        
                     }
                 }
 
