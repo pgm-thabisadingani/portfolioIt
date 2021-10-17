@@ -1,6 +1,7 @@
 ---
 title: "Arne Quinze"
 img: "arne_quinze.png"
+preview: true
 highlighted: true
 text: "The Arne Quinze project was the @work module's third and final project. The goal was to create a clone/replica of Arne Quinze's art and exhibition website. Quinze is a Belgian conceptual artist best recognized for his spectacular street art installations. "
 tools: "The project focuses on url-parameters, using json, dynamic data addition to sites, filtering by category, lazy image loading, and responsive design, among other things."
